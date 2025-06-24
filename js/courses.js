@@ -605,14 +605,10 @@ seletAllHeading.forEach((heads, index) => {
       coSkillShowCase[1].style.display = "none";
       coSkillShowCase[2].style.display = "none";
     } else if (index === 1) {
-      heads.style.color = "#007bff"
-
       coSkillShowCase[1].style.display = "flex";
       coSkillShowCase[2].style.display = "none";
       coSkillShowCase[0].style.display = "none";
     } else {
-      heads.style.color = "#007bff"
-
       coSkillShowCase[2].style.display = "flex";
       coSkillShowCase[1].style.display = "none";
       coSkillShowCase[0].style.display = "none";
