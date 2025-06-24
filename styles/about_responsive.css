@@ -328,6 +328,10 @@
 		width: calc(100% + 80px);
 		left: -40px;
 	}
+	.hero{
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 /************
@@ -375,6 +379,10 @@
 	{
 		width: 100%;
 		padding-left: 0;
+	}
+	.hero{
+		display: flex;
+		flex-direction: column;
 	}
 }
 
