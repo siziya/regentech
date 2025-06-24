@@ -884,10 +884,10 @@ section
 
 .about_item_image
 {
-	width: 100%;
+	width: 90%;
 	border-radius: 100%;
 	overflow: hidden;
-	height: 45vh;
+	height: 40vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
