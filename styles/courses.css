@@ -1574,11 +1574,6 @@ section {
   letter-spacing: -1px;
   cursor: pointer;
 }
-.co_skill_bottom .co_skill_bottom_top h1::first-letter {
-  color: #007bff;
-  font-size: 1.7vw;
-  font-weight: 600;
-}
 .co_skill_bottom .co_skill_bottom_top h1:hover {
   color: #007bff;
   transition: all 0.3s ease;
