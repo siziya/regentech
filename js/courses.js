@@ -47,7 +47,7 @@ $(document).ready(function () {
 
 	*/
 
-  function setHeader() {
+   function setHeader() {
     if ($(window).scrollTop() > 100) {
       header.addClass("scrolled");
     } else {
@@ -109,6 +109,13 @@ $(document).ready(function () {
       });
     }
   }
+
+  /* 
+
+	6. Init Accordions
+
+	*/
+
 
   /*
 
