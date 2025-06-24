@@ -543,7 +543,7 @@ function renderSlider() {
     card.innerHTML = `
         <div class="course-card">
           <div class="course-img">
-            <img src="${course.img}" alt="${course.title}" />
+            <img src=".${course.img}" alt="${course.title}" />
           </div>
           <div class="course-body">
             <h5 class="course-title">${course.title}</h5>
