@@ -154,6 +154,10 @@
 	{
 		margin-bottom: 60px;
 	}
+		.footer_col:not(:last-child)
+	{
+		margin-bottom: 60px;
+	}
 	.footer_contact,
 	.footer_links
 	{
