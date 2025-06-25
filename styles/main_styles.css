@@ -1769,7 +1769,6 @@ Partners
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow-x: scroll;
   gap: 3vw;
   padding: 40px 8vw ;
   padding-bottom: 0;
