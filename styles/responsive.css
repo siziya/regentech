@@ -295,36 +295,28 @@
 9. 768px
 ************/
 @media only screen and (max-width: 768px) {
-  .placeSTD_cards_container .cards_conatainer {
-    gap: 5vw;
-    padding: 30px 5vw;
-	padding-bottom: 0;
-  }
-
-  .placeSTD_cards_container .cards {
-    width: 85vw !important;
-    min-width: 85vw !important;
-    height: 50vh;
-  }
-
-  .placeSTD_cards_container .cards .std_details h1 {
-    font-size: 4.2vw;
-    white-space: normal;
-    word-break: break-word;
-  }
-
-  .placeSTD_cards_container .cards .std_details h2 {
-    font-size: 3vw;
-  }
-
-  .placeSTD_cards_container .cards .std_details h2 i {
-    font-size: 3vw;
-    padding: 0.6vw;
-  }
-
   .placeSTD_cards_container .owl-carousel .owl-item {
-    width: auto !important;
-  }
+  width: auto !important;
+}
+
+.placeSTD_cards_container .cards {
+  width: 85vw !important;
+  min-width: 85vw !important;
+  height: 50vh;
+}
+
+.placeSTD_cards_container .cards .std_details h1 {
+  font-size: 4.2vw;
+}
+
+.placeSTD_cards_container .cards .std_details h2 {
+  font-size: 3vw;
+}
+
+.placeSTD_cards_container .cards .std_details h2 i {
+  font-size: 3vw;
+  padding: 0.6vw;
+}
 }
 
 
@@ -450,25 +442,7 @@
 
 @media only screen and (max-width: 480px)
 {
-.placeSTD_cards_container .cards {
-    width: 80vw;
-    min-width: 80vw;
-    height: 50vh;
-  }
 
-  .placeSTD_cards_container .cards .std_details h1 {
-    font-size: 5vw;
-	line-height: 1;
-  }
-
-  .placeSTD_cards_container .cards .std_details h2 {
-    font-size: 4vw;
-  }
-
-  .placeSTD_cards_container .cards .std_details h2 i {
-    font-size: 4vw;
-    padding: 0.8vw;
-  }	
 }
 
 /************
