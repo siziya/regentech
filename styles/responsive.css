@@ -298,6 +298,7 @@
   .placeSTD_cards_container .cards_conatainer {
     gap: 5vw;
     padding: 30px 5vw;
+	padding-bottom: 0;
   }
 
   .placeSTD_cards_container .cards {
