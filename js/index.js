@@ -77,41 +77,25 @@ initReversePartnersSlider();
 
 
 // place student slider
-
 function initPlaceSTDSlider() {
   if ($(".cards_conatainer").length) {
     var partnersSlider = $(".cards_conatainer");
-   partnersSlider.owlCarousel({
-  loop: true,
-  margin: 16, // gap between cards
-  autoplay: true,
-  autoplayTimeout: 2000,
-  autoplayHoverPause: false,
-  autoplaySpeed: 1000,
-  smartSpeed: 100,
-  nav: false,
-  dots: false,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    480: {
-      items: 2,
-    },
-    720: {
-      items: 2,
-    },
-    991: {
-      items: 3,
-    },
-    1199: {
-      items: 4,
-    },
-  },
-});
+    partnersSlider.owlCarousel({
+      loop: true,
+      margin: 16,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: false,
+      autoplaySpeed: 1000,
+      smartSpeed: 100,
+      nav: false,
+      dots: false,
+      autoWidth: true, // key for responsive custom width
+    });
   }
 }
 initPlaceSTDSlider();
+
 /*****************************************************************************
  ****************************** GSAP **************************************
  ****************************************************************************/
