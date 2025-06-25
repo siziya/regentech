@@ -1775,6 +1775,7 @@ Partners
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  flex-shrink: 0;
   box-shadow: rgba(61, 63, 66, 0.2) 0px 0px 2px;
 }
 
@@ -1797,6 +1798,7 @@ Partners
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: top center; /* keeps face in view */
 }
 .placeSTD_cards_container .cards .std_details{
   position: absolute;
