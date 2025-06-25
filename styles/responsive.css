@@ -294,23 +294,20 @@
 /************
 9. 768px
 ************/
-
-@media only screen and (max-width: 768px)
-{
-	 .cards_conatainer {
+@media only screen and (max-width: 768px) {
+  .placeSTD_cards_container .cards_conatainer {
     gap: 5vw;
     padding: 30px 5vw;
   }
 
   .placeSTD_cards_container .cards {
-    width: 75vw;
-    min-width: 75vw;
+    width: 85vw !important;
+    min-width: 85vw !important;
     height: 50vh;
   }
 
   .placeSTD_cards_container .cards .std_details h1 {
-    font-size: 4vw;
-    line-height: 1.2;
+    font-size: 4.2vw;
     white-space: normal;
     word-break: break-word;
   }
@@ -323,7 +320,12 @@
     font-size: 3vw;
     padding: 0.6vw;
   }
+
+  .placeSTD_cards_container .owl-carousel .owl-item {
+    width: auto !important;
+  }
 }
+
 
 /************
 10. 767px
