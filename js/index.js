@@ -103,9 +103,9 @@ function initPlaceSTDSlider() {
         991: {
           items: 4,
         },
-        // 1199: {
-        //   items: 6,
-        // },
+        1199: {
+          items: 6,
+        },
       },
     });
   }
