@@ -72,6 +72,45 @@ function initReversePartnersSlider() {
 }
 initReversePartnersSlider();
 
+
+
+
+
+// place student slider
+
+function initPlaceSTDSlider() {
+  if ($(".cards_conatainer").length) {
+    var partnersSlider = $(".cards_conatainer");
+    partnersSlider.owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: false,
+      autoplaySpeed: 1000,
+      smartSpeed: 100,
+      nav: false,
+      dots: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        480: {
+          items: 2,
+        },
+        720: {
+          items: 3,
+        },
+        991: {
+          items: 4,
+        },
+        // 1199: {
+        //   items: 6,
+        // },
+      },
+    });
+  }
+}
+initPlaceSTDSlider();
 /*****************************************************************************
  ****************************** GSAP **************************************
  ****************************************************************************/
