@@ -1388,16 +1388,6 @@ section {
   -webkit-overflow-scrolling: touch;
 }
 
-#courseSlider {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  gap: 32px;
-  scrollbar-width: none;
-  /* -webkit-overflow-scrolling: touch; */
-  /* background: #000; */
-}
-
 #courseSlider::-webkit-scrollbar {
   display: none;
 }
@@ -1405,14 +1395,14 @@ section {
 .slide-card {
   flex: 0 0 auto;
   width: 360px;
-  /* or adjust based on your design */
+  touch-action: pan-x; 
 }
 
 .scrolling-wrapper {
   display: flex;
   overflow-x: auto;
-  /* scroll-snap-type: x mandatory; */
-  /* -webkit-overflow-scrolling: touch; */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; 
   padding-bottom: 10px;
   gap: 24px;
   scrollbar-width: none;
