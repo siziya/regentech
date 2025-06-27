@@ -1598,6 +1598,7 @@ section {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  mix-blend-mode: multiply;
 }
 .co_skill_bottom_bottom .co_skill_bottom_bottom_right {
   height: 100%;
